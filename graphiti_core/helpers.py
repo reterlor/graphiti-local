@@ -18,7 +18,7 @@ import os
 from datetime import datetime
 
 import numpy as np
-from dotenv import load_dotenv
+from dotenv.main import load_dotenv
 from neo4j import time as neo4j_time
 
 load_dotenv()

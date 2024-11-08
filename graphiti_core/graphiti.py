@@ -19,7 +19,7 @@ import logging
 from datetime import datetime, timezone
 from time import time
 
-from dotenv import load_dotenv
+from dotenv.main import load_dotenv
 from neo4j import AsyncGraphDatabase
 from pydantic import BaseModel
 
